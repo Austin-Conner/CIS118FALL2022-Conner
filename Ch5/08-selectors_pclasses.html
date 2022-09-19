@@ -7,7 +7,6 @@
 	/* simple selector */
 		a, a:link {
 			color: orange;
-			text-decoration: none;
 		}
 	/* :link pseudo-class selector */
 		a:link {
@@ -18,17 +17,18 @@
 			color: red
 		}
 	/* :hover pseudo-class selector */
-		a:hover {
-			text-decoration: underline;
+		a:hover, a:focus {
+			text-decoration: none;
 		}
 	/* :active pseudo-class selector */
 		a:active {
 			color: green;
 		}
 	
-	/* :focus pseudo-class selector 
-	*/
-
+	/* :focus pseudo-class selector*/
+	a:focus {
+		background-color: yellow;
+	}
 	
 	</style>
 </head>
