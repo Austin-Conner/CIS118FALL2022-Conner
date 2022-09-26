@@ -70,6 +70,9 @@
   font-variant: small-caps;
  }
 
+ dt {
+  font-weight: bold;
+ }
 
  /* font-style 
   italic - best if italicizing a font
