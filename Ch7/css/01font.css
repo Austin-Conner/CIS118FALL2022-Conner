@@ -19,12 +19,14 @@
   */
   
 	/* #sansFont */
-#sansfont {
+#sansFont {
   font-family:  Verdana, sans-serif;
 }
 	
 	/* #serifFont */
-
+#serifFont {
+  font-family: Georgia, serif;
+}
 	
 	/* #monoFont */
 
