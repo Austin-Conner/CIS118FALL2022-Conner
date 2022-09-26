@@ -29,6 +29,9 @@
 }
 	
 	/* #monoFont */
+#monoFont {
+  font-family: Courier, monospace;
+}
 
 	
 	/* #cursiveFont */
