@@ -19,7 +19,9 @@
   */
   
 	/* #sansFont */
-
+#sansfont {
+  font-family:  sans-serif;
+}
 	
 	/* #serifFont */
 
