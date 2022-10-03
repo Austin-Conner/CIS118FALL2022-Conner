@@ -53,7 +53,7 @@ a:link {
 }
 
 .misspelledText {
-    text-decoration: line-through, wavy;
+    text-decoration: line-through wavy 
 }
 
 .emphaticText {
