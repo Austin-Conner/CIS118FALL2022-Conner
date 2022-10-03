@@ -1,7 +1,6 @@
 /* demo css */
 .container {
-	width: 50%;
-	margin: 10% auto;
+border: 4px dashed lightblue;
 }
 /*
 This color border color and size combo is kinda cool.
@@ -20,5 +19,6 @@ border-width: 5px 10px 5px 10px;
     color: red;
     border: 10px solid gray;
 	padding: 10%;
+	margin: 5% 10%;
 }
 		
