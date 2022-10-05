@@ -2,6 +2,7 @@ body {
     background-color: #cccccc;
     font-family: Helvetica, Ariel, sans-serif;
 }
+<!--Wrong fonts designated. Instructions: All text heading levels (h1-h6) should have a font-family of Georgia, serif.-->
 h1, h2, h3, h4, h5, h6 {
     font-family: Helvetica, Arial, sans-serif;
 }
