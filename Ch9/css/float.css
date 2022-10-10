@@ -32,10 +32,14 @@ scroll down to enter in example code
 
 /* CLEAR FLOATS
 -----------------------------------------------*/
+
+/*
+ 
 .footer{
 	clear: both;
 }
 
+*/
 /*clearfix method */
 .group:after{
 	content: " "; /*make sure you have a space */
