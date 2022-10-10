@@ -20,7 +20,7 @@ scroll down to enter in example code
 	width: 620px;
 }
 .main img{
-	float: inherit;
+	float: left;
 }
 .sidebar img{
 	float: right;
