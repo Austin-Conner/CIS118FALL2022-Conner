@@ -18,25 +18,24 @@ h1,h2{margin-top:1.5em}
 element {position: static}
 -------------------------------------------------- */
 .first {
-
-
+    position: static;
 }
 
 /* RELATIVE 
 element {position: relative}
 -------------------------------------------------- */
-.second{
+.second {
 
 }
 
 /* ABSOLUTE 
 element {position: absolute}
 -------------------------------------------------- */
-.third{
+.third {
 
 }
 
-.container{
+.container {
 
 }
 
@@ -44,7 +43,7 @@ element {position: absolute}
 /* FIXED 
 element {position: fixed}
 -------------------------------------------------- */
-.fourth{
+.fourth {
 
 }
 
