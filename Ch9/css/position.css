@@ -39,11 +39,14 @@ element {position: relative}
 element {position: absolute}
 -------------------------------------------------- */
 .third {
+position: absolute;
+top: 30px;
+left: 30px;
 
 }
 
 .container {
-
+position: relative;
 }
 
 
