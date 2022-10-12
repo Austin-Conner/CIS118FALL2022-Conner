@@ -39,10 +39,12 @@ element {position: relative}
 element {position: absolute}
 -------------------------------------------------- */
 .third {
-position: absolute;
-top: 30px;
-left: 30px;
-
+    position: absolute;
+    top: 30px;
+    /* add spacing to the top */
+    left: 30px;
+    /* add spacing to the left */
+    
 }
 
 .container {
@@ -54,6 +56,11 @@ position: relative;
 element {position: fixed}
 -------------------------------------------------- */
 .fourth {
+position: fixed;
+top: 0px;
+left: 300px;
+margin: 0;
+
 
 }
 
