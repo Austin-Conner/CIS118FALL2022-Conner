@@ -25,6 +25,13 @@ element {position: static}
 element {position: relative}
 -------------------------------------------------- */
 .second {
+    position: relative;
+    /*move it from it's normal position*/
+    top: -20px;
+    /*use negative value to pull it up*/
+    left: 50px;
+    /* move away from the left (50px to
+    the right) */
 
 }
 
