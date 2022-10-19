@@ -23,3 +23,6 @@
 	float: left;
 }
 
+img {
+	max-width: 100%;
+}
