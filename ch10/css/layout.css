@@ -2,3 +2,24 @@
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
+
+.header {
+	width: 47.9166666%;
+	margin: 0 1.016667%;
+	float: left
+}
+
+.navbar
+
+.primary {
+	width: 64.5833333%;
+	margin: 0 1.0416667%;
+	float: left;
+}
+
+.secondary {
+	width: 31.25;
+	margin: 0 1.0416667;
+	float: left;
+}
+
