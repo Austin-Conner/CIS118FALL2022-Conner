@@ -48,3 +48,36 @@
 /* for 960 or less*/
 /* Bring back our FLUID LAYOUT */
 
+@media screen and (max-width: 960px) {
+
+	img {
+		max-width: 100;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.header {
+		width: 47.91666667%;
+		margin: 0 1.0416667%;
+	}
+
+	.primary {
+		width: 64.5833333%;
+		margin: 0 1.0416667%;
+		background-color: coral;
+	}
+
+	.secondary {
+		width: 31.25%;
+		margin: 0 1.0316667%;
+		background: cornflowerblue
+	}
+
+	.footer {
+		width: 97.9166667%;
+		margin: 0 1.0416667%;
+	}
+
+}
