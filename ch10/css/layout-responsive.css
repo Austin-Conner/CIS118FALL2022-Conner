@@ -81,3 +81,20 @@
 	}
 
 }
+
+@media screen and (max-width: 800px) {
+	.header {
+		width: auto;
+		float: none;
+	}
+
+	.navbar {
+		width: auto;
+		float: none;
+	}
+
+	.navbar ul {
+		margin-bottom: 0;
+	}
+	
+}
