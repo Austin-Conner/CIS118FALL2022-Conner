@@ -48,7 +48,7 @@
 /* for 960 or less*/
 /* Bring back our FLUID LAYOUT */
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:60em) {
 
 	img {
 		max-width: 100;
@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:50em) {
 	.header {
 		width: auto;
 		float: none;
@@ -114,7 +114,6 @@
 
 @media screen (max-width:480px) {
 	img {
-		display: none;
-	}
+		display: none;}
 	
 }
