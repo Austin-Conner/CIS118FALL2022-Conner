@@ -46,14 +46,12 @@ nav[role="navigation"] a {
 }
 
 
-@media  and (max-width: 40em){
-    nav[role="navigation"] ul {
+@media  and (max-width: 40em) { nav[role="navigation"] ul {
         float: none;
         width: auto;
         border-right: none;
-    }   
 }
-
+}
 div[role="main"] .primary {
     float: none;
     width: auto;
