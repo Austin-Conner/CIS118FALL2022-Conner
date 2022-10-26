@@ -46,7 +46,7 @@ nav[role="navigation"] a {
 }
 
 
-@media  and (max-width: 40em) {
+@media  and (max-width: 40em){
     nav[role="navigation"] ul {
         float: none;
         width: auto;
