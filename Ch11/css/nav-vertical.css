@@ -39,3 +39,8 @@ nav [role="navigation"] ul a:active {
 nav[role="navigation"] a {
     text-decoration: none;
 }
+
+.current a {
+    color: #333;
+    background: #ddd;
+}
