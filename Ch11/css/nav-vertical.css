@@ -9,3 +9,33 @@ a:active		{color: #911;}
 
 /* Vertical Navigation Styling
 ------------------------------------ */
+
+nav[role="navigation"] ul {
+    width: 18.33333333%;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-right: .8333333333%;
+    margin-left: .83333333333%;
+    margin-right: .83333333333%;
+    border-right: 1px solid #aaa;
+}
+
+nav[role="navigation"] ul a {
+    display: block;
+    padding: 6px 0;
+    font-weight: bold;
+}
+
+nav[role="navigation"] ul a:focus, nav[role="navigation"] ul a:hover {
+    background: #ddd;
+}
+
+nav [role="navigation"] ul a:active {
+    background: #ddd;
+}
+
+nav[role="navigation"] a {
+    text-decoration: none;
+}
