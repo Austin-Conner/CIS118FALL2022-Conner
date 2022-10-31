@@ -58,6 +58,10 @@
 <ul>
 	<li>Upload Resume <input type="file" name="resume"><br>
 	<!-- enter code here -->
+	<li>Upload Resume
+		<input type="file" name="resume"><br>
+		<input type="submit" value="Upload">
+		
 	</li>
 </ul>
  </form>
@@ -66,6 +70,8 @@
 <!-- SUBMIT -->
  <form action="http://mywebsite.com/form-submit.php" method="post">
  	<!-- enter code here -->
+	 <input type="submit" value="Submit My Application">
+
  </form>
  
  
@@ -74,15 +80,25 @@
  <ul>
  <li>Leave a Comment 
 	<!-- enter code here -->
+	<li>Leave a Comment <textarea 
+		name="comment">I think...</textarea>
+		
  </ul>
  </form>
 
 
 <!-- SELECT + OPTION -->
 <form action="http://mywebsite.com/form-menu.php" method="post">
-<li>What Month Were You Born?
+<ul>
+	<li>What Month Were You Born?
 	<!-- enter code here -->
+	
+	<select name="month">
+			<option value="January">January</option>
+		   <option value="February">February</option>
+		</select>
 </li>
+</ul>
 </form>
  
 <!-- LABEL wrapping input-->
