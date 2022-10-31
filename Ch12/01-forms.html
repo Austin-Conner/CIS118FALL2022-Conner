@@ -13,7 +13,16 @@
 
 
 <!-- TEXT + PASSWORD -->
-
+<form action="http://mywebsite.com/form-processor.php" method="post">
+	<ol>
+		<li>
+			Name <input type="text" name="name">
+		</li>
+		<li>
+			Password <input type="password" name="password">
+		</li>
+	</ol>
+</form>
 
 
 <!-- RADIO BUTTON -->
@@ -21,7 +30,12 @@
 <ul>
     <li>What size drink: <br>
 	<!-- enter code here -->
-    </li>
+    <input type="radio" name="drinksize" value="large" checked="checked"> Large
+    <input type="radio" name="drinksize" value="medium"> Medium
+    <input type="radio" name="drinksize" value="small"> Small
+
+	</li>
+
 </ul>
 </form>
 
