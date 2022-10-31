@@ -7,10 +7,9 @@ img {
     margin-right: 20px;
 }
 
-#nav {               
-    padding: 0 0 0 0;     
+#nav {
+    padding: 0;
     background-color: transparent;
-
 }
 
 #nav li {
@@ -18,12 +17,11 @@ img {
     position: relative;
     vertical-align: bottom;
     margin-right: 25px;
-
 }
 
 #nav li:last-child { 
     margin-right: 0;
-}
+}      
 
 #nav li a {
     display: block;
@@ -35,7 +33,7 @@ img {
 }
 
 a span {
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
     font-size: 1.5em;
     position: absolute;
     bottom: 5px;
@@ -57,19 +55,19 @@ li a:active {
     color: #eee;
 }
 
-li.html{
+li.html a{
     background-image: url(../images/icon-html.png);
     background-repeat: no-repeat;
     background-position: center 50%;
 }
 
-li.css{
+li.css a{
     background-image: url(../images/icon-css.png);
     background-repeat: no-repeat;
-    background-position: center 100%;
+    background-position: center 50%;
 }
 
-li.js{
+li.js a{
     background-image: url(../images/icon-js.png);
     background-repeat: no-repeat;
     background-position: center 50%;
