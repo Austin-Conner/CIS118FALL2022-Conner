@@ -22,8 +22,13 @@ img {
 }
 
 #nav li:last-child {        <!--Found it! You accidentally combined two rules together. That's why the images are stacked.-->
-    margin-right: 0px;      <!--end of :last-child rule-->
+    margin-right: 0px;
+}      
+<!--end of :last-child rule-->
+      
 <!--Begin the rule for li selector with the descendant a selector here.-->
+
+li a {
     display: block;
     width: 300px;
     height: 175px;
