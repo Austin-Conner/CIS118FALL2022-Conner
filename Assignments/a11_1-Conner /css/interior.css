@@ -48,7 +48,10 @@ dd {
 }
 
 #nav.current a {
-
+background-color: #fff;
+}
+.content {
+  clear: both;
 }
 
 #fluid #container {
