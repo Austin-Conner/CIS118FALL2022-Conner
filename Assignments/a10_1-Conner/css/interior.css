@@ -2,66 +2,57 @@
     padding-bottom: 20px;
     background-color: #EEE;
     overflow: auto;
-}
-
-#main {
+  }
+  #main {
     width: 620px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
-}
-
-#secondary {
+  }
+  #secondary {
     width: 300px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
-}
-
-dd {
+  }
+  dd {
     line-height: 1.5em;
     margin-bottom: 1.5em;
-}
-
-/* continue advanced: Fluid layout */
-
-#fluid container {
+  }
+  #fluid #container {
     width: 90%;
     max-width: 960px;
     min-width: 650px;
-}
-
-#fluid main {
+  }
+  #fluid #main {
     width: 65%;
     margin-right: 1%;
     margin-left: 1%;
-    float: left
-}
-
-#fluid secondary {
-    width: 3%;
+    float: left;
+  }
+  #fluid #secondary {
+    width: 31%;
     margin-right: 1%;
     margin-left: 1%;
     float: left;
-}
-
-#fluid img {
+  }
+  img {
     width: 100%;
-}
-
-
-@media screen and (max-width: 800px) {
-    #fluid div #container {
-        width: 90%;
-        min-width: 0;
+  }
+  
+@media and screen (max-width: 800px) {
+    #fluid #container { 
+      width: 90%;
+      min-width: 0;
     }
-    #fluid div #main { 
-        width: auto;
-        float: none;
-        background-color: #fff;
-    }
-    #fluid div #secondary {
-        width: auto;
-        float: none;
-    }
+ 
+      #fluid #main { 
+     width: auto;
+     float: none;
+     background-color: #fff;
+      }
+   #fluid #secondary {
+     width: auto;
+     float: none;
+   }
 }
