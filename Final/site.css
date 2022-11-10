@@ -1,4 +1,33 @@
 /* Color variables (meets WCAG Level AAA */
 :root {
-    --background: #131E2A
+    --background: #131E2A;
+    --textcolor: #FFFFFF;
+    --links: #42B0FF;
+    --button: #748486;
 }
+/* ^^^Find a color for the button and for the name of the website on the left 
+
+ Components (add some classes so they can be called in the HTML to style (Columns)) 
+
+ use two columns for picture and text. convert to row with media query so it fits on screen. may also want to make a hamburger menu instead of the current navigation. 
+ grid template areas grid column :start
+grid row start and :end
+
+sizing units: 
+    https://www.reddit.com/r/css/comments/eiyzt0/do_you_use_px_vwvh_or_rem_most_often/
+    https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/
+
+
+
+final project requirements: https://docs.google.com/document/d/1j4TCFqeL1Iis-e2hgH03Fsax6jmvN4nOWCTxg64iDJk/edit
+
+Full screen navigation menu for phones
+
+*/
+
+
+p {
+    size: 
+
+
+
