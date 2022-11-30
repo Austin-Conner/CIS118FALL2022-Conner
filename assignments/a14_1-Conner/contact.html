@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Austin Conner"/>
+	<title>Contact : Austin Conner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="css/interior.css">
+<link rel="stylesheet" href="css/site.css">
+	<style>
+		ul {
+			list-style-type: none; /* Remove bullets */
+  			padding: 0; /* Remove padding */
+  			margin: 0; /* Remove margins */
+		}
+	</style>
+</head>
+<body id="fluid">
+    <div id="container">
+        <div id="header" role="banner">
+            <h1>Foundations of Web Design</h1>
+            <h2>Contact</h2>
+        </div>
+        <!--closes header-->
+        <ul id="nav" role="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li>HTML</li>
+            <li><a href="css.html">CSS</a></li>
+            <li>JavaScript</li>
+        </ul>
+        <div class="content group">
+            <div id="main" role="main">
+                <h3>Adding a Movie</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xpjpqd8BwSM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>Adding a Table</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan=2>Foundations of Web Design</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chapter 01</td>
+                            <td>HTML Foundations</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 02</td>
+                            <td>Text Elements</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 03</td>
+                            <td>Links & Objects</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 04</td>
+                            <td>Tables</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 05</td>
+                            <td>CSS: Introduction</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 06</td>
+                            <td>HTML Attributes</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 07</td>
+                            <td>CSS: Styling Text</td>
+                        </tr>
+                        <tr>
+                            <td>Chapter 08</td>
+                            <td>The Box Model</td>
+                        </tr>
+                    </tbody>
+                        <td>Chapter 09</td>
+                        <td>Layout Properties</td>
+                    </tr>
+                    <tr>
+                        <td>Chapter 10</td>
+                        <td>Page Layout</td>
+                    </tr>
+                    <tr>
+                        <td>Chapter 11</td>
+                        <td>Navigation</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Author: Thomas Michaud</td>
+                        </tr>
+                </table>
+
+            </div>
+            <div class="secondary" role="complementary">
+                <h3>Resources</h3>
+                <h4>Learning</h4>
+                <dl>
+                    <dt><a href="https://www.sitepoint.com/">Sitepoint</a></dt>
+                    <dd>SitePoint is a hub for web developers to share their passion for building incredible Internet
+                        things. Founded by Mark Harbottle and Matt Mickiewicz in 1999, SitePoint is for web
+                        professionals, by web professionals: developers, designers, programmers, product creators and
+                        entrepreneurs alike.</dd>
+
+                    <dt><a href="https://www.w3schools.com/">W3Schools</a></dt>
+                    <dd>W3Schools is a school for web developers, covering all the aspects of web development.</dd>
+
+                    <dt><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></dt>
+                    <dd>MDN Web Docs is an open-source, collaborative project documenting Web platform technologies,
+                        including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning
+                        resources for beginning developers and students.</dd>
+                </dl>
+                <h4>Inspiration</h4>
+                <ul>
+                    <li><a href="https://cssnectar.com/">CSS Nectar</a></li>
+                    <li><a href="https://httpster.net/">httpster</a></li>
+                    <li><a href="https://freefrontend.com/css-gallery/">Free Frontend</a></li>
+                </ul>
+<p>Filling out this form will send the form data to Austin Conner.</p>
+<form method="post" action="https://forms.un-static.com/forms/8c0f342e561a707a74e0f09ac5f9540f45787f74">
+	<fieldset>
+	<legend>Contact Me</legend>
+
+<!-- structure the form the way you wish
+	- unordered list
+	- definition list
+	- using only form elements -->
+<dl>
+<!-- NAME
+I'm supplying the first lable and input to help you get started
+label and input for Name (Required)
+-->
+<dt><label for="form-name">Full Name </label></dt>
+	<dd><input type="text" name="name" id="form-name" required/></dd>
+
+<!--EMAIL
+label and input for Email (Required) -->
+<dt><label for="form-email">Email </label></dt>	
+	<dd><input type="email" name="email" id="form-email" required/></dd>
+		
+<!-- Subject
+label and input for Subject -->
+<dt><label for="form-subject">Subject </label></dt>
+	<dd><input type="text" name="subject" id="form-subject" required/></dd>
+
+<!-- Message
+A textarea box the visitor can write what they need-->
+<dt><label for="form-message">Message </label></dt>
+	<dd><textarea name="message" id="form-message" required/></textarea></dd>
+</dl>
+		<span>
+		  <input type="submit" name="Submit" value="Submit" />
+		  
+		  <!-- The contact_process will check if these fields were
+		  completed in older browsers. 
+		  However, you can use the HTML5 required attribute
+		  for modern browsers -->
+		  <input type="hidden" name="required" value="name email" />
+		 
+		 
+		  <!-- this input sends the message from response.text as an email
+		  The document can be found in the autoresponse folder
+		  - Don't touch {~name~} ... it uses the name from the form
+		  - modify the message, if you wish
+		  - Change YOUR NAME HERE to your name -->
+		  <input type="hidden" name="autoresponse_file" value="response.txt" />
+		  
+		  
+		  <!--This input sends the user to the thankyou.html document
+		  don't change the value unless you change thankyou.html to
+		  a different name -->
+		  <input type="hidden" name="followup_url" value="thankyou.html" />
+		</span>
+
+	</fieldset>
+
+</form>
+</div>
+</body>
+</html>
