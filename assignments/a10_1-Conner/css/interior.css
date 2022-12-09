@@ -19,6 +19,7 @@
     line-height: 1.5em;
     margin-bottom: 1.5em;
   }
+<!-- comment out to see if problem
 #container {
     position: relative;
 }
@@ -46,7 +47,7 @@
 #nav a:hover {
     background-color: #EEE;
 }
-
+-->
 #nav.current a {
     
 }
