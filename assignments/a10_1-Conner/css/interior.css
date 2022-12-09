@@ -47,11 +47,10 @@
 #nav a:hover {
     background-color: #EEE;
 }
--->
 #nav.current a {
     
 }
-
+end of comment out.-->
   #fluid #container {
     width: 90%;
     max-width: 960px;
